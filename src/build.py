@@ -1,8 +1,8 @@
-import os
+ximport os
 import platform
 import subprocess
 
-def build_executable(html_file="Voidborne2.3.html"):
+def build_executable(html_file="index.html"):
     separator = ";" if platform.system() == "Windows" else ":"
     cmd = [
         "pyinstaller",
