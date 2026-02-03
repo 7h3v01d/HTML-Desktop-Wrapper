@@ -135,7 +135,7 @@ class FramelessWindow(QWidget):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Frameless HTML Window Application")
-    parser.add_argument("--html", default="Voidborne2.3.html", help="Path to a local HTML file or a web URL (e.g., https://example.com)")
+    parser.add_argument("--html", default="index.html", help="Path to a local HTML file or a web URL (e.g., https://example.com)")
     parser.add_argument("--gpu", choices=["enable", "disable"], default="enable", help="Control GPU acceleration (enable/disable)")
     args, unknown_args = parser.parse_known_args()
 
